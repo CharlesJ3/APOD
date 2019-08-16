@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Expletus+Sans');
+body {
+  color: white;
+  background-color: black;
+}
+
+img {
+  width: auto;
+  height: auto;
+  max-height: 50%;
+  max-width: 70%;
+}
+
+#wrapper {
+  margin: 0 auto;
+  text-align: center;
+  display: inline-block;
+}
+
+#mediaContentVideo {
+  text-align: center;
+  max-width: 50%;
+}
+
+#mediaContentImage {
+  text-align: center;
+  max-width: 50%;
+}
+
+#spaceTitle {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Expletus Sans', 'Times New Roman';
+  text-shadow: 1px 1px 1px red;
+  border-bottom: 1px solid aliceblue;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+#spaceBody {
+  margin: 0 auto;
+  max-width: 80%;
+  padding-top: 2%;
+  text-align: justify;
+}
+
+#spaceDate {
+  float: left;
+  margin: 0 auto;
+  width: 15%;
+  text-align: center;
+  font-size: 22px;
+  font-family: 'Expletus Sans', 'Times New Roman';
+  text-shadow: 1px 1px 1px red;
+}
+
+#spaceCopyright {
+  margin: 0 auto;
+  float: right;
+  width: 15%;
+  text-align: center;
+  font-size: 22px;
+  font-family: 'Expletus Sans', 'Times New Roman';
+  text-shadow: 1px 1px 1px red;
+}
+
+#centerImage {
+  text-align: center;
+/* display: inline-block;*/
+  margin-top: 1%;
+}
+
+.infoLabel {
+  border-bottom: 1px solid aliceblue;
+  text-shadow: 1px 1px 1px aliceblue;
+}
+
+@media screen and (max-width: 600px) {
+  #spaceTitle {
+    font-size: 18px;
+  }
+  #spaceDate {
+    font-size: 14px;
+  }
+  #spaceCopyright {
+    font-size: 14px;
+  }
+  #spaceBody {
+    font-size: 12px;
+  }
+  #centerImage {
+    text-align: center;
+  }
+}
